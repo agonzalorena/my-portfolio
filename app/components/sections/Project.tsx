@@ -8,7 +8,7 @@ export default function Project() {
       <div>
         <h2 className="text-3xl">Proyectos Destacados</h2>
         <p className="text-muted">
-          Aplicaciones, infrastructuras y herramientas que desarrollé.
+          Aplicaciones, infraestructuras y herramientas que desarrollé.
         </p>
       </div>
       <div className="grid grid-cols-1 gap-12">

@@ -31,14 +31,14 @@ export const projectList: Project[] = [
     description:
       "Plataforma de procesamiento de telemetría IoT en tiempo real orientada a la industria energética, diseñada para monitorear métricas críticas de pozos y disparar alertas automatizadas ante anomalías.",
     challenge:
-      "Diseñé e implementé una arquitectura orientada a eventos (Event-Driven Driven) desacoplada en microservicios: un simulador de métricas (temperatura, presión, caudal), un servicio analizador que procesa los eventos consumidos desde tópicos de Apache Kafka para calcular promedios y detectar valores críticos, y un módulo de notificaciones que transmite métricas y alertas en vivo a un dashboard vía Server-Sent Events (SSE). Integré persistencia histórica de datos y visualizaciones operativas con Grafana.",
+      "Diseñé e implementé una arquitectura orientada a eventos (Event-Driven) desacoplada en microservicios: un simulador de métricas (temperatura, presión, caudal), un servicio analizador que procesa los eventos consumidos desde tópicos de Apache Kafka para calcular promedios y detectar valores críticos, y un módulo de notificaciones que transmite métricas y alertas en vivo a un dashboard vía Server-Sent Events (SSE). Integré persistencia histórica de datos y visualizaciones operativas con Grafana.",
     link: "https://github.com/agonzalorena/WellStream",
     img: "/wellStream-img.png",
   },
   {
     name: "Home Lab",
     description:
-      "Servidor privado y entorno de red de alta disponibilidad (24/7) diseñado para el alojamiento seguro, automatizado y auto-gestionado de microservicios propios y herramientas de infraestructura.",
+      "Servidor privado y entorno de red de alta disponibilidad (24/7) diseñado para el alojamiento seguro, automatizado y autogestionado de microservicios propios y herramientas de infraestructura.",
     challenge:
       "Diseñé una arquitectura local orquestada con Docker Compose para alojar servicios de domótica e infraestructura como Home Assistant, AdGuard Home y Jellyfin, junto a las bases de datos y backends de mis aplicaciones (Java, Spring Boot, automatizaciones con IA). Configuré una infraestructura de red segmentada mediante VLANs y reglas de firewall para aislar el tráfico de domótica e IoT. Para el acceso exterior seguro, implementé túneles DNS vía Cloudflare con dominio propio y una conexión VPN con WireGuard.",
     link: null,

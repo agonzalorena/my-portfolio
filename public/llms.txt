@@ -35,7 +35,7 @@ Plataforma de procesamiento de telemetría IoT en tiempo real orientada a la ind
 - Repositorio: https://github.com/agonzalorena/WellStream
 
 ### Infraestructura Home Lab & Deployments
-Servidor privado y entorno de red de alta disponibilidad (24/7) para el alojamiento seguro, automatizado y auto-gestionado de microservicios propios y herramientas de infraestructura.
+Servidor privado y entorno de red de alta disponibilidad (24/7) para el alojamiento seguro, automatizado y autogestionado de microservicios propios y herramientas de infraestructura.
 - Arquitectura local orquestada con Docker Compose: Home Assistant, AdGuard Home, Jellyfin, además de bases de datos y backends propios (Java, Spring Boot, automatizaciones con IA)
 - Red segmentada mediante VLANs y reglas de firewall para aislar el tráfico de domótica e IoT
 - Acceso exterior seguro con túneles DNS vía Cloudflare (dominio propio) y VPN con WireGuard
