@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { GithubIcon, LinkedinIcon, MyLogo } from "../../utils/svgs";
+import { MyLogo } from "@/app/utils/svgs";
 import { connectList } from "@/app/utils/data";
 
 export default function Footer() {

@@ -1,4 +1,6 @@
-export default function ExperienceTimeLine({ items }: { items: any[] }) {
+import { Experience } from "@/app/utils/data";
+
+export default function ExperienceTimeLine({ items }: { items: Experience[] }) {
   return (
     <div>
       <ol>

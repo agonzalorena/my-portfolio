@@ -1,8 +1,8 @@
-import Experience from "./components/sections/Experience";
-import Footer from "./components/sections/Footer";
-import Hero from "./components/sections/Hero";
-import Project from "./components/sections/Project";
-import Stack from "./components/sections/Stack";
+import Experience from "@/app/components/sections/Experience";
+import Footer from "@/app/components/sections/Footer";
+import Hero from "@/app/components/sections/Hero";
+import Project from "@/app/components/sections/Project";
+import Stack from "@/app/components/sections/Stack";
 
 export default function Home() {
   return (

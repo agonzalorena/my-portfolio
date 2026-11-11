@@ -1,4 +1,4 @@
-import { stackList } from "../../utils/data";
+import { stackList } from "@/app/utils/data";
 export default function Stack() {
   return (
     <section>

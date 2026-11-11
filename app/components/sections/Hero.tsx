@@ -1,5 +1,5 @@
-import Btn from "../Btn";
-import { connectList } from "../../utils/data";
+import Btn from "@/app/components/Btn";
+import { connectList } from "@/app/utils/data";
 
 export default function Hero() {
   return (

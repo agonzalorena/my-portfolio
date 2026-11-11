@@ -1,27 +1,31 @@
-export const stackList = [
-  "Java",
-  "Spring Boot",
-  "Docker",
-  "React",
-  "Next",
-  "Tailwind",
-  "Git",
-  "SQL",
-  "Firebase",
-  "Grafana",
-  "REST APIs",
-  "Microservices",
-  "Event-Driven Architecture",
-  "Kafka",
-  "WebSockets",
-  "GitHub Actions",
-  "Vercel",
-  "Cloudflare",
-  "Linux",
-  "AI Tools",
-];
+import type { ComponentType, SVGProps } from "react";
+import { GithubIcon, LinkedinIcon } from "./svgs";
 
-export const projectList = [
+export interface Project {
+  name: string;
+  description: string;
+  challenge: string;
+  link: string | null;
+  img: string;
+}
+
+export interface Connection {
+  id: number;
+  name: string;
+  link: string;
+  icon: ComponentType<SVGProps<SVGSVGElement>>;
+}
+
+export interface Experience {
+  id: number;
+  type: "Trabajo" | "Estudio";
+  title: string;
+  organization: string;
+  period: string;
+  description: string;
+}
+
+export const projectList: Project[] = [
   {
     name: "WellStream",
     description:
@@ -60,8 +64,7 @@ export const projectList = [
   },
 ];
 
-import { GithubIcon, LinkedinIcon } from "./svgs";
-export const connectList = [
+export const connectList: Connection[] = [
   {
     id: 1,
     name: "GitHub",
@@ -76,9 +79,7 @@ export const connectList = [
   },
 ];
 
-export const projectsUrl = "https://github.com/agonzalorena?tab=repositories";
-
-export const experienceList = [
+export const experienceList: Experience[] = [
   {
     id: 2,
     type: "Trabajo",
@@ -98,4 +99,30 @@ export const experienceList = [
     description:
       "Carrera finalizada con fuerte enfoque en ingeniería de software y desarrollo backend:\n• Programación Orientada a Objetos y algoritmos avanzados (Java).\n• Diseño de Arquitecturas Web, APIs REST y ecosistema de Microservicios (Spring Boot).\n• Modelado y gestión de Bases de Datos relacionales.\n• Configuración y despliegue de aplicaciones en redes.\n• Metodologías de desarrollo, control de versiones y validación de software.",
   },
+];
+
+export const projectsUrl: string =
+  "https://github.com/agonzalorena?tab=repositories";
+
+export const stackList: string[] = [
+  "Java",
+  "Spring Boot",
+  "Docker",
+  "React",
+  "Next",
+  "Tailwind",
+  "Git",
+  "SQL",
+  "Firebase",
+  "Grafana",
+  "REST APIs",
+  "Microservices",
+  "Event-Driven Architecture",
+  "Kafka",
+  "WebSockets",
+  "GitHub Actions",
+  "Vercel",
+  "Cloudflare",
+  "Linux",
+  "AI Tools",
 ];

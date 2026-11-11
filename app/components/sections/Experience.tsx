@@ -1,5 +1,5 @@
-import { experienceList } from "../../utils/data";
-import ExperienceTimeLine from "../ExperienceTimeLine";
+import { experienceList } from "@/app/utils/data";
+import ExperienceTimeLine from "@/app/components/ExperienceTimeLine";
 
 export default function Experience() {
   return (

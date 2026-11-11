@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { projectList, projectsUrl } from "../../utils/data";
-import { ArrowDiagonalTopRight } from "../../utils/svgs";
+import { projectList, projectsUrl } from "@/app/utils/data";
+import { ArrowDiagonalTopRight } from "@/app/utils/svgs";
 
 export default function Project() {
   return (
@@ -85,12 +85,15 @@ export default function Project() {
                     </div>
                   </a>
                 ) : (
-                  <a className="text-muted/40 border px-3 py-2 rounded-xl flex items-center gap-2 cursor-not-allowed">
+                  <span
+                    aria-disabled="true"
+                    className="text-muted/40 border px-3 py-2 rounded-xl flex items-center gap-2 cursor-not-allowed"
+                  >
                     <p>Ir al proyecto</p>
                     <div className="w-6">
                       <ArrowDiagonalTopRight />
                     </div>
-                  </a>
+                  </span>
                 )}
               </div>
             </section>
