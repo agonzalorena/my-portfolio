@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /CV.pdf
+
+Sitemap: https://agonzalorena.com/sitemap.xml
