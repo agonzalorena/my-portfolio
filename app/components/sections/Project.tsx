@@ -62,7 +62,7 @@ export default function Project() {
 
                 {/* Desktop: texto siempre visible */}
                 <div className="hidden md:flex md:flex-col md:gap-2">
-                  <p className="text-xs font-semibold text-primary/70">
+                  <p className="text-xs font-semibold text-primary">
                     Desafío y Solución
                   </p>
                   <p className="text-base max-w-prose leading-relaxed font-normal text-muted">
