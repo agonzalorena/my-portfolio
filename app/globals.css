@@ -32,12 +32,7 @@
   --color-lightbackground: var(--lightbackground);
   --color-card: var(--card);
 }
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #ededed;
-    --foreground: #0a0a0a;
-  }
-}
+
 .shadow-custom {
   box-shadow: 0 1px 1px 1px var(--muted);
 }

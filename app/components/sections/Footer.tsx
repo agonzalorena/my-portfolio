@@ -55,7 +55,7 @@ export default function Footer() {
 
       {/* Año */}
       <div className="w-full flex justify-center">
-        <p className="mx-auto max-w-5xl px-6 py-4 text-xs text-muted/70">
+        <p className="mx-auto max-w-5xl px-6 py-4 text-xs text-muted">
           © {year} Agustín Gonzalorena.
         </p>
       </div>

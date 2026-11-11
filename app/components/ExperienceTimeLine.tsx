@@ -36,7 +36,7 @@ export default function ExperienceTimeLine({ items }: { items: Experience[] }) {
                   >
                     {item.type}
                   </span>
-                  <time className="text-sm text-muted/70 sm:ml-auto">
+                  <time className="text-sm text-muted sm:ml-auto">
                     {item.period}
                   </time>
                 </header>
