@@ -3,6 +3,7 @@ import "./globals.css";
 import { Providers } from "./utils/ThemeProvider";
 import ThemeToggle from "./utils/ThemeToggle";
 import { Viewport } from "next";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -123,6 +124,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <Providers>
           {children}
           <ThemeToggle />
+          <Analytics />
         </Providers>
         <script
           type="application/ld+json"

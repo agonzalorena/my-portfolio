@@ -7,7 +7,7 @@
   --muted: #000000b3;
   --lightText: rgba(0, 0, 0, 0.75);
   --lightbackground: rgba(0, 0, 0, 0.2);
-  --primary: #059669;
+  --primary: #047857;
 }
 :root.dark {
   --background: #1a1d24;
